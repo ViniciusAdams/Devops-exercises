@@ -9,3 +9,12 @@ Learn how to create pods
 1. Choose a container image (e.g. redis, nginx, mongo, etc.)
 2. Create a pod (in the default namespace) using the image you chose
 3. Verify the pod is running
+
+Answer:
+1. Choose a container image (e.g. redis, nginx, mongo, etc.)
+kubectl run --image nginx
+2. Create a pod (in the default namespace) using the image you chose
+kubectl get pods
+
+
+
